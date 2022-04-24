@@ -1,4 +1,8 @@
-var faker = require('faker');
+const faker = {
+    name: {},
+    date: {},
+    random: {},
+}
 
 function pad(num, size) {
     var s = "000000000" + num;
